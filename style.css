@@ -1,0 +1,322 @@
+
+/*navbar*/
+li {
+  
+  display:inline-block;
+  letter-spacing:2px;
+  margin-left:50px;
+  font-family:"Montserrat", sans-serif;
+  
+  
+}
+
+
+#header-img {
+  
+  width:100%;
+  height:50%;
+  
+}
+
+
+#secondary-nav {
+  display:none;
+  
+}
+
+
+
+#nav-bar { 
+  position:fixed;
+  background-color:white;
+  width:100%;
+  
+  
+}
+
+
+
+.nav-link {
+  
+  text-decoration:none;
+  color:rgba(108, 122, 137, 1);
+}
+
+.nav-link:hover {
+  
+  border-bottom:2px solid rgba(108, 122, 137, 1);
+}
+
+h1, h2 {
+  
+  color:rgba(108, 122, 137, 1); 
+  text-align:center;
+  margin-top:50px;
+  font-family:"Montserrat",sans-serif;
+}
+
+
+
+
+.payment {
+
+  height:400px;
+  width:400px;
+  border:1px solid black; 
+  margin:auto;
+  border-radius:10%;
+  background-image:url("https://source.unsplash.com/qwoW4mdqjWw");
+  
+}
+
+h3.pricing {
+  text-align:center;
+  color:white;
+  font-size:1rem;
+  font-family:"Montserrat", sans-serif;
+  letter-spacing:2px;
+  
+}
+
+#container {
+  display:flex; 
+  flex-direction:row;
+  justify-content: space-evenly;
+  
+}
+
+iframe#video {
+  margin:auto;
+  padding-top:100px;
+  padding-bottom:100px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+p.paymentplan {
+  
+  text-align:justify;
+  padding-left:20px; 
+  padding-right:20px;
+  color:white;
+  font-family:"Montserrat",sans serif;
+  letter-spacing:1px;
+  
+}
+
+
+
+.color {
+  
+  background-color:rgba(228, 241, 254, 1);
+  padding-top:50px;
+  padding-bottom:50px;
+  margin-top:100px;
+  
+}
+
+#aboutUs {
+  font-family:"Montserrat", sans serif; 
+  letter-spacing:2px;
+  font-size:1.5rem;
+  color:rgba(108, 122, 137, 1);
+  text-align:center;
+}
+
+#form {
+  font-family:"Montserrat", sans serif; 
+  color:rgba(108, 122, 137, 1);
+  text-align:center;
+  padding-top:50px;
+  padding-bottom:50px;
+
+}
+
+h3 {
+  
+  color:rgba(108, 122, 137, 1);
+  font-family:"Monserrat", sans serif; 
+  text-align:center; 
+  padding-top:50px;
+}
+
+#email {
+  
+  margin-bottom:30px;
+  font-family:"Montserrat", sans serif; 
+  width:300px;
+  height:50px;
+  text-align:center;
+  
+  
+}
+
+.btn {
+  
+  text-transform:uppercase;
+  background-color:navy;
+  color:white; 
+  font-family:"Montserrat", sans serif; 
+  cursor: pointer;
+  height:30px;
+  width:200px;
+  font-weight:bold;
+  
+  
+}
+
+#who {
+  
+  height:300px;
+  width:500px;
+  text-align:center; 
+  border:2px solid black;
+  margin:auto;
+ 
+
+  
+}
+
+
+footer a {
+  
+ text-decoration:none;
+ color:rgba(108, 122, 137, 1);
+ 
+ 
+  
+}
+
+footer a:hover {
+  
+  border-bottom:1px solid rgba(108, 122, 137, 1);
+  
+}
+
+#footer {
+  padding-left:50px;
+  padding-top:10px;
+  
+  
+}
+
+.mobile-payment {
+  
+  display:none;
+}
+
+#mobile-nav {
+  display:none;
+  
+}
+
+@media only screen and (max-width: 1300px) {
+ 
+  .payment {
+    
+    width:30%;
+    padding-top:0;
+    height:500px;
+    
+  }    
+  
+  .pricing {
+    padding-top:0px;
+     font-size:1em;
+    
+  }
+
+ 
+  
+}
+
+@media only screen and (max-width: 800px) {
+  
+  
+  #nav-bar {
+    display:none;
+    
+  }
+  
+  #secondary-nav {
+    
+    display:inline;
+    margin:0px;
+    padding:0px;
+    
+    
+  }
+  
+  .payment {
+    
+    height:200px;
+  }
+  .mobile-payment {
+    display:inline;
+    color:white;
+    padding:10px;
+    
+  }
+  
+  .paymentplan {
+  
+  display:none;
+  }
+  
+  #video {
+    
+    height:300px;
+    width:400px;
+  }
+  
+}
+
+@media only screen and (max-width: 670px)
+  
+{
+ 
+  .mobile-payment {
+    padding-left:10px;
+  }
+  
+  
+}
+
+@media only screen and (max-width: 550px) {
+  
+  #secondary-nav {
+    
+    display:none;
+  }
+  
+  #mobile-nav {
+    
+    display:inline;
+  }
+  #who {
+    
+    height:300px;
+    width:300px; 
+   
+  }  
+  
+  #who p {
+    
+    margin-left:10px;
+    margin-right:10px;
+ text-align:justify; }
+  
+  .pricing {
+  
+    
+  } 
+  
+  #video {
+    
+    height:300px;
+    width:300px;
+    
+    
+  } 
+}
